@@ -1,5 +1,5 @@
 +++
-title = "My First Pattern File"
+title = "Publication"
 tags = ["example tag", "another tag"]
 +++
 

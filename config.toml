@@ -6,5 +6,7 @@ theme = "cupper"
 publishDir = "docs"
 
 [params]
-  description = "I am going to be a Phd student in Computer Science at University of Colorado Boulder under ther supervision of Prof. Chenhan Tan"
+  description = "Chao-Chun Hsu"
+  description_zh = "徐朝駿"
+  email = "Chao-Chun[dot]Hsu<br>[at]colorado[dot]edu"
   codePenUser = "Heydon"
