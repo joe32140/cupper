@@ -1,10 +1,10 @@
 languageCode = "en-us"
-title = "Cupper"
-baseURL = "https://thepaciellogroup.github.io/cupper/"
+title = "Chao-Chun Hsu"
+baseURL = "https://joe32140.github.io/"
 canonifyURLs = true
 theme = "cupper"
 publishDir = "docs"
 
 [params]
-  description = "Documentation for the **Cupper** documentation builder, built with **Cupper** itself."
+  description = "I am going to be a Phd student in Computer Science at University of Colorado Boulder under ther supervision of Prof. Chenhan Tan"
   codePenUser = "Heydon"
