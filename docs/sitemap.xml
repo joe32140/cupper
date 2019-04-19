@@ -12,7 +12,7 @@
   </url>
   
   <url>
-    <loc>https://joe32140.github.io/patterns/pattern/</loc>
+    <loc>https://joe32140.github.io/</loc>
   </url>
   
   <url>
@@ -21,12 +21,12 @@
   </url>
   
   <url>
-    <loc>https://joe32140.github.io/tags/</loc>
-    <priority>0</priority>
+    <loc>https://joe32140.github.io/patterns/pattern/</loc>
   </url>
   
   <url>
-    <loc>https://joe32140.github.io/</loc>
+    <loc>https://joe32140.github.io/tags/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
