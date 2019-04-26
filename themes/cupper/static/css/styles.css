@@ -355,6 +355,17 @@ caption {
     margin-right: auto;
     max-width: 25rem;
 }
+
+.icons {
+    border-bottom: 0px;
+    font-size: 3rem;
+    text-align: center;
+    margin-top: -1.5rem;
+    margin-bottom: -1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .main-and-footer {
     margin-left: 15rem;
 }
