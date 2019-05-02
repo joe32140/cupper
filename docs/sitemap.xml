@@ -29,14 +29,4 @@
     <priority>0</priority>
   </url>
   
-  <url>
-    <loc>https://joe32140.github.io/tags/another-tag/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://joe32140.github.io/tags/example-tag/</loc>
-    <priority>0</priority>
-  </url>
-  
 </urlset>
