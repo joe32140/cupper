@@ -4,7 +4,7 @@ title = "Publication"
 
 # Conferences & Workshops
 ### 2019
-* [Dixit: Interactive Visual Storytelling via Term Manipulation](https://arxiv.org/abs/1903.02230), **_Chao-Chun Hsu_**, Yu-Hua Chen, Zi-Yuan Chen, Hsin-Yu Lin, Lun-Wei Ku, *To appear in The Web Conference 2019 Demonstration track (WWW'19 Demo)*  
+* [Dixit: Interactive Visual Storytelling via Term Manipulation](https://arxiv.org/abs/1903.02230), **_Chao-Chun Hsu_**<sup>\*</sup>, Yu-Hua Chen<sup>\*</sup>, Zi-Yuan Chen<sup>\*</sup>, Hsin-Yu Lin, Lun-Wei Ku (<sup>\*</sup> equal contribution), *To appear in The Web Conference 2019 Demonstration track (WWW'19 Demo)*  
 * [Entropy-Enhanced Multimodal Attention Model for Scene-Aware Dialogue Generation](http://workshop.colips.org/dstc7/papers/25.pdf), Kuan-Yen Lin, **_Chao-Chun Hsu_**, Yun-Nung Chen, Lun-Wei Ku, *In proceedings of Dialog System Technology Challenges 7 (DSTC7)*   
 
 ### 2018
