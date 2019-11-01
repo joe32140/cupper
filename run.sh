@@ -1,1 +1,1 @@
-hugo server --baseURL="140.109.22.72" --bind="140.109.22.72"
+hugo server --baseURL="127.0.0.1" --bind="127.0.0.1"
