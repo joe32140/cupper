@@ -1,5 +1,6 @@
 #!/bin/bash
 set -x
+hugo -D
 git add -A
 git commit -m "$1"
 git push
