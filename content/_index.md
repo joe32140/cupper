@@ -9,4 +9,4 @@ Before joining CU, I was a research assistant in Natural Language Processing and
 
 ## News
 2019-11-10:  
-Our paper **Knowledge-Enriched Visual Storytelling** is accepted to AAAI'20 !
+Our paper **Knowledge-Enriched Visual Storytelling** is accepted to *AAAI'20* !
