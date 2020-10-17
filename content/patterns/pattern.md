@@ -4,7 +4,8 @@ title = "Publication"
 
 # Conferences & Workshops
 ### 2020
-* [Knowledge-Enriched Visual Storytelling](https://arxiv.org/abs/1912.01496), **_Chao-Chun Hsu_**<sup>\*</sup>, Zi-Yuan Chen<sup>\*</sup>, Chi-Yang Hsu, Chih-Chia Li, Tzu-Yuan Lin, Ting-Hao (Kenneth) Huang, Lun-Wei Ku (<sup>\*</sup> equal contribution), *To appear in The AAAI Conference on Artificial Intelligence (AAAI'20)*  
+* [Characterizing the Value of Information in Medical Notes](https://arxiv.org/pdf/2010.03574.pdf), **_Chao-Chun Hsu_**, Shantanu Karnwal, S. Mullainathan, Ziad Obermeyer and Chenhao Tan, *Findings of EMNLP 2020*
+* [Knowledge-Enriched Visual Storytelling](https://arxiv.org/abs/1912.01496), **_Chao-Chun Hsu_**<sup>\*</sup>, Zi-Yuan Chen<sup>\*</sup>, Chi-Yang Hsu, Chih-Chia Li, Tzu-Yuan Lin, Ting-Hao (Kenneth) Huang, Lun-Wei Ku (<sup>\*</sup> equal contribution), *The AAAI Conference on Artificial Intelligence (AAAI'20)*  
 
 ### 2019
 * [Dixit: Interactive Visual Storytelling via Term Manipulation](https://arxiv.org/abs/1903.02230), **_Chao-Chun Hsu_**<sup>\*</sup>, Yu-Hua Chen<sup>\*</sup>, Zi-Yuan Chen<sup>\*</sup>, Hsin-Yu Lin, Ting-Hao (Kenneth) Huang, Lun-Wei Ku (<sup>\*</sup> equal contribution), *In proceedings of The Web Conference 2019 Demonstration track (WWW'19 Demo)*  
