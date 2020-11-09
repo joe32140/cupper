@@ -10,9 +10,9 @@ My research at NLPSA included modeling language in discourse by deep learning mo
 Prior to that, I got a bachelor's degree in Computer Science at National Taiwan University and did undergraduate research with [Prof. Lin-shan Lee](http://speech.ee.ntu.edu.tw/previous_version/lslNew.htm) on utterance-level emotion recognition in speech.
 
 ## News
-2020-09: Our paper [**Characterizing the Value of Information in Medical Notes**](https://arxiv.org/pdf/2010.03574.pdf) is accepted to *Findings of EMNLP 2020* !
-
-2020-05: I will join Amazon Alexa Search as applied scientist intern this summer.
-
-2019-11-10:  
-Our paper [**Knowledge-Enriched Visual Storytelling**](https://arxiv.org/abs/1912.01496) is accepted to *AAAI'20* !
+|Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Event |
+|:-----|:----------------------------:|
+| 2020-11 | I will present our *Findings of EMNLP* paper at [*Clinical NLP* workshop](https://clinical-nlp.github.io/2020/program.html)!
+| 2020-09 | Our paper [**Characterizing the Value of Information in Medical Notes**](https://arxiv.org/pdf/2010.03574.pdf) is accepted to *Findings of EMNLP 2020* !
+| 2020-05 | I will join Amazon Alexa Search as applied scientist intern this summer.
+| 2019-11-10 | Our paper [**Knowledge-Enriched Visual Storytelling**](https://arxiv.org/abs/1912.01496) is accepted to *AAAI'20* !
