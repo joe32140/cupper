@@ -1,3 +1,4 @@
 # Your Documentation's README
 
-Please fill me out!
+basic html is in `themes/cupper/layouts/_default/baseof.html`.
+Markdowns are in `content`.

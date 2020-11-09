@@ -2,7 +2,7 @@
 title = "Home"
 +++
 
-I am a PhD student in Computer Science at the University of Chicago under supervision of [Prof. Chenhao Tan](https://chenhaot.com). My current research focuses on information solicitation which aims to extract valuable information from the noisy dataset.
+I am a PhD student in Computer Science at the University of Chicago under supervision of [Prof. Chenhao Tan](https://chenhaot.com). My current research focuses on information solicitation which aims to characterize valuable information from the noisy dataset and facilitates a more effective data recording process.
 
 I spent a wonderful year at University of Colorado Boulder before transferred to UChicago. 
 Before joining CU, I was a research assistant in Natural Language Processing and Sentiment Analysis Lab (NLPSA) at Academia Sinica supervised by [Dr. Lun-Wei Ku](https://www.iis.sinica.edu.tw/pages/lwku/). 
