@@ -2,7 +2,7 @@
 title = "Home"
 +++
 
-I am a PhD student in Computer Science at the University of Chicago under supervision of [Prof. Chenhao Tan](https://chenhaot.com). My current research focuses on information solicitation which aims to characterize valuable information from the noisy dataset and facilitates a more effective data recording process.
+I am a PhD student in Computer Science at the University of Chicago under supervision of [Prof. Chenhao Tan](https://chenhaot.com) in [CHAI lab](https://chicagohai.github.io/). My current research focuses on information solicitation which aims to characterize valuable information from the noisy dataset and facilitates a more effective data recording process.
 
 I spent a wonderful year at University of Colorado Boulder before transferred to UChicago. 
 Before joining CU, I was a research assistant in Natural Language Processing and Sentiment Analysis Lab (NLPSA) at Academia Sinica supervised by [Dr. Lun-Wei Ku](https://www.iis.sinica.edu.tw/pages/lwku/). 
@@ -12,6 +12,7 @@ Prior to that, I got a bachelor's degree in Computer Science at National Taiwan 
 ## News
 |Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Event |
 |:-----|:----------------------------:|
+| 2021-2 | Presenting our *Findings of EMNLP* paper at [*AI4BC* workshop](https://ai4bc.github.io/ai4bc21/)!
 | 2020-11 | I will present our *Findings of EMNLP* paper at [*Clinical NLP* workshop](https://clinical-nlp.github.io/2020/program.html)!
 | 2020-09 | Our paper [**Characterizing the Value of Information in Medical Notes**](https://arxiv.org/pdf/2010.03574.pdf) is accepted to *Findings of EMNLP 2020* !
 | 2020-05 | I will join Amazon Alexa Search as applied scientist intern this summer.

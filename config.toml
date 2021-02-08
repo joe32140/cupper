@@ -4,10 +4,10 @@ baseURL = "https://chaochunhsu.github.io/"
 canonifyURLs = true
 theme = "cupper"
 publishDir = "docs"
-update="Lastest update: 11/9/2020"
+update="Lastest update: 2/8/2020"
 
 [params]
-  update="Lastest update: 11/9/2020"
+  update="Lastest update: 2/8/2020"
   description = "Chao-Chun Hsu"
   description_zh = "徐朝駿"
   email = "chaochunh [at] uchicago [dot] edu"
