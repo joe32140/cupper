@@ -12,6 +12,7 @@ Prior to that, I got a bachelor's degree in Computer Science at National Taiwan 
 ## News
 |Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Event |
 |:-----|:----------------------------:|
+| 2021-2 | The code for [**Characterizing the Value of Information in Medical Notes**](https://arxiv.org/pdf/2010.03574.pdf) is out! ([value-of-medical-notes](https://github.com/BoulderDS/value-of-medical-notes)) | 
 | 2021-2 | Presenting our *Findings of EMNLP* paper at [*AI4BC* workshop](https://ai4bc.github.io/ai4bc21/)!
 | 2020-11 | I will present our *Findings of EMNLP* paper at [*Clinical NLP* workshop](https://clinical-nlp.github.io/2020/program.html)!
 | 2020-09 | Our paper [**Characterizing the Value of Information in Medical Notes**](https://arxiv.org/pdf/2010.03574.pdf) is accepted to *Findings of EMNLP 2020* !
