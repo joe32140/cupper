@@ -12,9 +12,10 @@ Prior to that, I got a bachelor's degree in Computer Science at National Taiwan 
 ## News
 |Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Event |
 |:-----|:----------------------------:|
+| 2021-6 | My intern work with Amazon Alexa, [**Answer Generation for Retrieval-based Question Answering Systems**](https://arxiv.org/abs/2106.00955), is accepted to *Findings of ACL 2021 (short)* !
 | 2021-2 | The code for [**Characterizing the Value of Information in Medical Notes**](https://arxiv.org/pdf/2010.03574.pdf) is out! ([value-of-medical-notes](https://github.com/BoulderDS/value-of-medical-notes)) | 
 | 2021-2 | Presenting our *Findings of EMNLP* paper at [*AI4BC* workshop](https://ai4bc.github.io/ai4bc21/)!
 | 2020-11 | I will present our *Findings of EMNLP* paper at [*Clinical NLP* workshop](https://clinical-nlp.github.io/2020/program.html)!
 | 2020-09 | Our paper [**Characterizing the Value of Information in Medical Notes**](https://arxiv.org/pdf/2010.03574.pdf) is accepted to *Findings of EMNLP 2020* !
 | 2020-05 | I will join Amazon Alexa Search as applied scientist intern this summer.
-| 2019-11-10 | Our paper [**Knowledge-Enriched Visual Storytelling**](https://arxiv.org/abs/1912.01496) is accepted to *AAAI'20* !
+<!-- | 2019-11-10 | Our paper [**Knowledge-Enriched Visual Storytelling**](https://arxiv.org/abs/1912.01496) is accepted to *AAAI'20* ! -->
