@@ -1,5 +1,5 @@
 languageCode = "en-us"
-title = "Chao-Chun Hsu"
+title = "Chao-Chun (Joe) Hsu"
 baseURL = "https://chaochunhsu.github.io/"
 canonifyURLs = true
 theme = "cupper"
@@ -8,7 +8,7 @@ update="Lastest update: 2/8/2020"
 
 [params]
   update="Lastest update: 2/8/2020"
-  description = "Chao-Chun Hsu"
+  description = "Chao-Chun (Joe) Hsu"
   description_zh = "徐朝駿"
   email = "chaochunh [at] uchicago [dot] edu"
   codePenUser = "Heydon"
