@@ -2,7 +2,7 @@
 title = "Home"
 +++
 
-Hi, I am Joe! I am a PhD student in Computer Science at the University of Chicago under supervision of [Prof. Chenhao Tan](https://chenhaot.com) in [CHAI lab](https://chicagohai.github.io/). My current research focuses on decusion-focused summarization which aims to collect valuable information from the lengthy source documents to support human decision making.
+Hi, I am Joe! I am a PhD student in Computer Science at the University of Chicago under supervision of [Prof. Chenhao Tan](https://chenhaot.com) in [CHAI lab](https://chicagohai.github.io/). My current research focuses on decision-focused summarization which aims to collect valuable information from lengthy source documents to support human decision making.
 
 I spent a wonderful year at University of Colorado Boulder before transferred to UChicago. 
 Before joining CU, I was a research assistant in Natural Language Processing and Sentiment Analysis Lab (NLPSA) at Academia Sinica supervised by [Dr. Lun-Wei Ku](https://www.iis.sinica.edu.tw/pages/lwku/). 
