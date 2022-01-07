@@ -2,8 +2,6 @@
 title = "Home"
 +++
 
-*I am seeking a research internship in Summer 2022!*
-
 Hi, I am Joe! I am a PhD student in Computer Science at the University of Chicago under supervision of [Prof. Chenhao Tan](https://chenhaot.com) in [CHAI lab](https://chicagohai.github.io/). My current research focuses on decision-focused summarization which aims to collect valuable information from lengthy source documents to support human decision making.
 
 I spent a wonderful year at University of Colorado Boulder before transferred to UChicago. 
