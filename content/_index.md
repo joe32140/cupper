@@ -2,7 +2,7 @@
 title = "Home"
 +++
 
-Hi, I am Chao-Chun from Taiwan. I am a PhD student in Computer Science at the University of Chicago under supervision of [Prof. Chenhao Tan](https://chenhaot.com) in [Chicago human-AI Interaction (CHAI) lab](https://chicagohai.github.io/). My current research focuses on applying NLP to better understand/support human decision-making.
+Hi, I am Joe! I am a PhD student in Computer Science at the University of Chicago under supervision of [Prof. Chenhao Tan](https://chenhaot.com) in [Chicago human-AI Interaction (CHAI) lab](https://chicagohai.github.io/). My current research focuses on applying NLP to better understand/support human decision-making.
 
 I spent a wonderful year at University of Colorado Boulder before transferred to UChicago. 
 Before joining CU, I was a research assistant in Natural Language Processing and Sentiment Analysis Lab (NLPSA) at Academia Sinica supervised by [Dr. Lun-Wei Ku](https://www.iis.sinica.edu.tw/pages/lwku/). 
