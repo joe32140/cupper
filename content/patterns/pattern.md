@@ -3,8 +3,10 @@ title = "Publication"
 +++
 
 # Conferences & Workshops
-### 2020
+### 2021
+* [Decision-Focused Summarization](https://arxiv.org/abs/2109.06896), **_Chao-Chun Hsu_**, Chenhao Tan, *EMNLP 2021*
 * [Answer Generation for Retrieval-based Question Answering Systems](https://arxiv.org/abs/2106.00955), **_Chao-Chun Hsu_**, Eric Lind, Luca Soldaini, Alessandro Moschitti, *Findings of ACL 2021 (short)*
+### 2020
 * [Characterizing the Value of Information in Medical Notes](https://arxiv.org/pdf/2010.03574.pdf), **_Chao-Chun Hsu_**, Shantanu Karnwal, S. Mullainathan, Ziad Obermeyer and Chenhao Tan, *Findings of EMNLP 2020*
 * [Knowledge-Enriched Visual Storytelling](https://arxiv.org/abs/1912.01496), **_Chao-Chun Hsu_**<sup>\*</sup>, Zi-Yuan Chen<sup>\*</sup>, Chi-Yang Hsu, Chih-Chia Li, Tzu-Yuan Lin, Ting-Hao (Kenneth) Huang, Lun-Wei Ku (<sup>\*</sup> equal contribution), *The AAAI Conference on Artificial Intelligence (AAAI'20)*  
 
