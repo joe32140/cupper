@@ -2,12 +2,12 @@
 title = "Home"
 +++
 
-Hi, I am Joe! I am a PhD student in Computer Science at the University of Chicago under supervision of [Prof. Chenhao Tan](https://chenhaot.com) in [Chicago human-AI Interaction (CHAI) lab](https://chicagohai.github.io/). My current research focuses on applying NLP to better understand/support human decision-making.
+Hi, I am Joe coming from [Taiwan](https://www.lonelyplanet.com/taiwan)! I am a PhD student in Computer Science at the University of Chicago under supervision of [Prof. Chenhao Tan](https://chenhaot.com) in [Chicago human-AI Interaction (CHAI) lab](https://chicagohai.github.io/). My current research focuses on applying NLP on large corpora to better understand and support human decision-making. 
 
 I spent a wonderful year at University of Colorado Boulder before transferred to UChicago. 
 Before joining CU, I was a research assistant in Natural Language Processing and Sentiment Analysis Lab (NLPSA) at Academia Sinica supervised by [Dr. Lun-Wei Ku](https://www.iis.sinica.edu.tw/pages/lwku/). 
 My research at NLPSA included modeling language in discourse by deep learning model with applications among dialogue emotion recognition and visual storytelling. 
-Prior to that, I got a bachelor's degree in Computer Science at National Taiwan University and did undergraduate research with [Prof. Lin-shan Lee](http://speech.ee.ntu.edu.tw/previous_version/lslNew.htm) on utterance-level emotion recognition in speech.
+Prior to that, I got a bachelor's degree in Computer Science at National Taiwan University and did undergraduate research with [Prof. Lin-shan Lee](http://speech.ee.ntu.edu.tw/previous_version/lslNew.htm) on utterance-level emotion recognition in speech. 
 
 ## News
 |Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Event |
