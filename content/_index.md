@@ -9,6 +9,8 @@ Before joining CU, I was a research assistant in Natural Language Processing and
 My research at NLPSA included modeling language in discourse by deep learning model with applications among dialogue emotion recognition and visual storytelling. 
 Prior to that, I got a bachelor's degree in Computer Science at National Taiwan University and did undergraduate research with [Prof. Lin-shan Lee](http://speech.ee.ntu.edu.tw/previous_version/lslNew.htm) on utterance-level emotion recognition in speech. 
 
+*I am actively seeking full-time opportunities as an Applied Research Scientist or Machine Learning Engineer, available to start this upcoming summer. If you're interested in learning more about my research, please don't hesitate to reach out via email.!*
+
 ## News
 |Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Event |
 |:-----|:----------------------------:|

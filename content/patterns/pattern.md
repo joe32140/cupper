@@ -3,6 +3,8 @@ title = "Publication"
 +++
 
 # Conferences & Workshops
+### 2023
+* [Clinical Notes Reveal Physician Fatigue](https://arxiv.org/abs/2312.03077), **_Chao-Chun Hsu_**,  Ziad Obermeyer, Chenhao Tan, (*under submission*)
 ### 2021
 * [Decision-Focused Summarization](https://arxiv.org/abs/2109.06896), **_Chao-Chun Hsu_**, Chenhao Tan, *EMNLP 2021*
 * [Answer Generation for Retrieval-based Question Answering Systems](https://arxiv.org/abs/2106.00955), **_Chao-Chun Hsu_**, Eric Lind, Luca Soldaini, Alessandro Moschitti, *Findings of ACL 2021 (short)*
