@@ -4,6 +4,8 @@ title = "Publication"
 
 # Conferences & Workshops
 ### 2023
+* [CHIME: LLM-Assisted Hierarchical Organization of Scientific Studies for Literature Review Support], **_Chao-Chun Hsu_**, Erin Bransom, Jenna Sparks.org, Bailey Kuehl, Chenhao Tan, David Wadden, Lucy Lu Wang, Aakanksha Naik., (*Findings of ACL 2024*)
+### 2023
 * [Clinical Notes Reveal Physician Fatigue](https://arxiv.org/abs/2312.03077), **_Chao-Chun Hsu_**,  Ziad Obermeyer, Chenhao Tan, (*under submission*)
 ### 2021
 * [Decision-Focused Summarization](https://arxiv.org/abs/2109.06896), **_Chao-Chun Hsu_**, Chenhao Tan, *EMNLP 2021*
