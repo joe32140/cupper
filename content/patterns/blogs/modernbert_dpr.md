@@ -8,7 +8,7 @@ tags = ["retrieval", "llm"]
 > Cross-posted here: https://api.wandb.ai/links/joe32140/zqs87nz3
 
 
-# Before We Started
+# Before We Start
 
 As researchers from LightOn.AI and Answer.AI released the ModernBERT models (https://huggingface.co/papers/2412.13663 ), which are BERT models for 2024, I am interested to see its performance on retrieval tasks as mentioned in their paper, specifically with DPR. However, they have not released the model checkpoints for all experiments. I decided to finetune ModernBERT on the MSMACRO dataset by myself based on the provided training scripts.
 
