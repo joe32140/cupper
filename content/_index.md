@@ -2,7 +2,7 @@
 title = "Home"
 +++
 
-Hi, I am Joe coming from [Taiwan](https://www.lonelyplanet.com/taiwan)! I am currently an Applied Scientist at Amazon workong on Amazon Q developer to improve project-context understanding for IDE Chat.
+Hi, I am Joe coming from [Taiwan](https://www.lonelyplanet.com/taiwan)! I am currently an Applied Scientist at Amazon working on Amazon Q developer to improve project-context understanding for IDE Chat.
 
 I did my PhD in Computer Science at the University of Chicago under supervision of [Prof. Chenhao Tan](https://chenhaot.com) in [Chicago human-AI Interaction (CHAI) lab](https://chicagohai.github.io/). My research focused on applying NLP on large corpora to better understand and support human decision-making. 
 
