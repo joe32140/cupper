@@ -15,7 +15,7 @@ Prior to that, I got a bachelor's degree in Computer Science at National Taiwan 
 |Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Event |
 |:-----|:----------------------------:|
 |2024-12| Officially graduated and obtained my PhD degree!|
-|2024-8| I have join AWS to work on Amazon Q developer!|
+|2024-8| I have joined AWS to work on Amazon Q developer!|
 |2024-2| Our paper, [**CHIME: LLM-Assisted Hierarchical Organization of Scientific Studies for Literature Review Support**](https://arxiv.org/abs/2407.16148), is accepted to *ACL 2024 Findings* !|
 |2023-2| I will join [**Semantic Scholar**](https://www.semanticscholar.org/research/research-team) team at [**AI2**](https://allenai.org/) as research intern over this summer!|
 <!-- |2022-6| Start my internship at [**ASAPP**](https://www.asapp.com/ai-research/)!| -->
