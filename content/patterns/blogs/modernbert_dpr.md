@@ -15,7 +15,7 @@ As researchers from LightOn.AI and Answer.AI released the ModernBERT models (htt
 
 # Experiments
 
-I ran experiments with [the official training scripts](https://github.com/AnswerDotAI/ModernBERT/tree/main/examples), modifying the mini_batch_size for `CachedMultipleNegativesRankingLoss` to accelerate the training. Following the hyperparameter suggestions, I chose a learning rate of 8e-5 for the base model and 1e-4 for the large model. The per_device_batch_size was set to 512, which is different from the batch size of 16 mentioned in the paper. By training both model sizes on an RTX4090 24GB GPU, it took 1 hour for the base model and 2 hours for the large model for one epoch. More training logs are shown in the panels below. 
+I ran experiments with [the official training scripts](https://github.com/AnswerDotAI/ModernBERT/tree/main/examples), modifying the `mini_batch_size` for `CachedMultipleNegativesRankingLoss` to accelerate the training. Following the hyperparameter suggestions, I chose a learning rate of 8e-5 for the base model and 1e-4 for the large model. The `per_device_batch_size` was set to 512, which is different from the batch size of 16 mentioned in the paper. By training both model sizes on an RTX4090 24GB GPU, it took 1 hour for the base model and 2 hours for the large model for one epoch. More training logs are shown in the panels below. 
 
 In the end, I finetuned ModernBERT-base and ModernBERT-large on 1.25M partial training instances on [the MSMACRO dataset](https://huggingface.co/datasets/sentence-transformers/msmarco-co-condenser-margin-mse-sym-mnrl-mean-v1) following the paper's experiment setup. I put the fine-tuned checkpoint on Hugging Face Hub:
 
