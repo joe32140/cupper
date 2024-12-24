@@ -14,6 +14,7 @@ Prior to that, I got a bachelor's degree in Computer Science at National Taiwan 
 ## News
 |Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Event |
 |:-----|:----------------------------:|
+|2024-12| [New post](https://chaochunhsu.github.io/patterns/blogs/modernbert_dpr/) on reproducibility of ModernBERT for retrieval tasks is out! |
 |2024-12| Officially graduated and obtained my PhD degree!|
 |2024-8| I have joined AWS to work on Amazon Q developer!|
 |2024-2| Our paper, [**CHIME: LLM-Assisted Hierarchical Organization of Scientific Studies for Literature Review Support**](https://arxiv.org/abs/2407.16148), is accepted to *ACL 2024 Findings* !|
