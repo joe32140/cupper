@@ -1,5 +1,8 @@
 +++
 title = "Home"
+[sitemap]
+  changefreq = "weekly"
+  priority = 1.0
 +++
 
 Hi, I am Joe coming from [Taiwan](https://www.lonelyplanet.com/taiwan)! I am currently an Applied Scientist at Amazon working on Amazon Q developer to improve project-context understanding for IDE Chat.

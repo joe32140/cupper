@@ -12,3 +12,8 @@ update="Lastest update: 12/24/2024"
   description_zh = "徐朝駿"
   email = "chaochunh [at] uchicago [dot] edu"
   codePenUser = "Heydon"
+
+[sitemap]
+  changefreq = "monthly"
+  filename = "sitemap.xml"
+  priority = 0.5

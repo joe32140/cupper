@@ -2,6 +2,9 @@
 title = "Reproducibility Report of ModernBERT Models for Retrieval Tasks Using DPR"
 toc = true
 tags = ["retrieval", "llm", "2024"]
+[sitemap]
+  changefreq = "weekly"
+  priority = 1.0
 +++
 
 
