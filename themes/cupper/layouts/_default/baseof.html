@@ -51,6 +51,10 @@
     {{ end }}
   </head>
   <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WXNT3JCN"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     {{ if ne .Type "print-version" }}
       <a href="#main">skip to content</a>
     {{ end }}
@@ -158,10 +162,7 @@
         </div>
       </div>
     </div>
-    <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WXNT3JCN"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
+
 	<script src="{{ "js/prism.js" | absURL }}"></script>
     <script src="{{ "js/dom-scripts.js" | absURL }}"></script>
     <!-- {{ if .Page.IsHome }}
