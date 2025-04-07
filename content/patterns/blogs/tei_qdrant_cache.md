@@ -1,5 +1,5 @@
 +++
-title = "My Attempt at Building a Multi-GPU Cache Embedding Server with TEI and Qdrant"
+title = "My Attempt at Building a Multi-GPU Embedding Server with TEI and Qdrant"
 toc = true
 tags = ["retrieval", "llm", "embeddings", "inference", "caching", "qdrant", "fastapi","multi-gpu", "llm-infra", "2025"]
 [sitemap]
