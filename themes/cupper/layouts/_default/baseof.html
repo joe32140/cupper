@@ -55,9 +55,9 @@
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WXNT3JCN"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
-    {{ if ne .Type "print-version" }}
+    <!-- {{ if ne .Type "print-version" }}
       <a href="#main">skip to content</a>
-    {{ end }}
+    {{ end }} -->
     {{ partial "svg.html" . }}
     <div class="wrapper {{ if eq .Type "print-version" }}print-version{{ end }}">
         <header class="intro-and-nav" role="banner">
