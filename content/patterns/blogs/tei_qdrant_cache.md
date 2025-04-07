@@ -48,7 +48,7 @@ After these iterations, the final architecture emerged:
 
 *(Simplified flow diagram)*
 
-To make interaction easier, I added a simple [**Gradio application**](https://github.com/joe32140/tei-qdrant-cache/tree/main/gradio_code_search) that uses this backend. It can clone a GitHub repo or scan a local directory, chunk code files, call the embedding endpoint (hitting the cache proxy), store the results in its *own* local Qdrant instance (separate from the main cache), and allow semantic search over the indexed code chunks. Building this demo also surfaced minor issues like correct Git clone URL handling and Gradio progress bar quirks.
+To make interaction easier, I added a simple [**Gradio application**](https://github.com/joe32140/tei-qdrant-cache/tree/main/gradio_code_search) that uses this backend. It can clone a GitHub repo or scan a local directory, chunk code files, call the embedding endpoint (hitting the cache proxy), store the results in its *own* local Qdrant instance (separate from the main cache), and allow semantic search over the indexed code chunks. It works fine! (See the example below.)
 
 ![Global Megacorp Ltd](/images/ui.png)
 
