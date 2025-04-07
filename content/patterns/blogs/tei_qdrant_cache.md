@@ -8,7 +8,8 @@ tags = ["retrieval", "llm", "embeddings", "inference", "caching", "qdrant", "fas
 +++
 
 
-## My Journey Building a Scalable, Cached Embedding Server with TEI and Qdrant
+## My Attempt at Building a Multi-GPU Cache Embedding Server with TEI and Qdrant
+
 
 > Github repo: https://github.com/joe32140/tei-qdrant-cache
 
