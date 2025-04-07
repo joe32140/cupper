@@ -13,10 +13,9 @@ tags = ["retrieval", "llm", "embeddings", "inference", "caching", "qdrant", "fas
 > Github repo: https://github.com/joe32140/tei-qdrant-cache
 
 ### Before We Start
+Serving an LLM-based embedding model with replicates over multiple GPUs on the same machine might sound trivial today [or in 2024], but after my extensive search, there's actually no one-click setup. Originally, I thought vLLM could easily fulfill my needs, or that SGLang could be an alternative if vLLM didn't work. However, both libraries turned out to be either very limited to specific models or did not support request routing across multi-GPUs. Luckily, I encountered [link](https://docs.vllm.ai/en/latest/deployment/nginx.html) and [link](https://github.com/huggingface/text-embeddings-inference/issues/87#issuecomment-1822970062), leading me to an Nginx load balancer setup. It also turned out that Hugging Face has its own text-embeddings-inference library, which provides seamless support for serving embedding models with pre-built Docker images. In this post, my goal was to create a robust system for serving text embeddings using Hugging Face's text-embeddings-inference (TEI) server, specifically targeting multi-GPU setups and incorporating a mechanism to handle repeated requests efficiently – essentially, building a smart caching layer.
 
-Serving machine learning models efficiently, especially powerful embedding models, often requires more than just loading a checkpoint. As models grow and use cases demand high throughput or handle repetitive queries, challenges around scaling, latency, and resource utilization emerge. My goal was to create a robust system for serving text embeddings using Hugging Face's `text-embeddings-inference` (TEI) server, specifically targeting multi-GPU setups and incorporating a mechanism to handle repeated requests efficiently – essentially, building a smart caching layer.
-
-This post details the iterative process, the roadblocks encountered, and the final architecture using TEI, FastAPI, Qdrant, Nginx, and Docker Compose.
+The following sections detail the iterative process and the final architecture using TEI, FastAPI, Qdrant, Nginx, and Docker Compose.
 
 ### The Initial Plan: Scaling TEI
 
