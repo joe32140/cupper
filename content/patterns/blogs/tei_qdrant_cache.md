@@ -7,10 +7,6 @@ tags = ["retrieval", "llm", "embeddings", "inference", "caching", "qdrant", "fas
   priority = 1.0
 +++
 
-
-## My Attempt at Building a Multi-GPU Cache Embedding Server with TEI and Qdrant
-
-
 > Github repo: https://github.com/joe32140/tei-qdrant-cache
 
 ### Before We Start
