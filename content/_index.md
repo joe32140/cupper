@@ -5,7 +5,7 @@ title = "Home"
   priority = 1.0
 +++
 
-Hi, I am Joe coming from [Taiwan](https://www.lonelyplanet.com/taiwan)! I am currently an Applied Scientist at Amazon working on Amazon Q developer to improve project-context understanding for IDE Chat.
+Hi, I am Joe coming from [Taiwan](https://www.lonelyplanet.com/taiwan)! I am currently an Applied Scientist at Amazon working on improving Kiro agents.
 
 I did my PhD in Computer Science at the University of Chicago under supervision of [Prof. Chenhao Tan](https://chenhaot.com) in [Chicago human-AI Interaction (CHAI) lab](https://chicagohai.github.io/). My research focused on applying NLP on large corpora to better understand and support human decision-making. 
 
@@ -17,7 +17,7 @@ Prior to that, I got a bachelor's degree in Computer Science at National Taiwan 
 ## News
 |Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Event |
 |:-----|:----------------------------:|
-|2026-02| Sharing our Kiro post on learning from live data agent trajectories to improve our system, [The hidden inefficiencies in AI coding (and how we find them)](https://kiro.dev/blog/hidden-inefficiencies-ai-coding/). |
+|2026-02| Sharing our [Kiro post](https://kiro.dev/blog/hidden-inefficiencies-ai-coding/) on learning from live data agent trajectories to improve our system! |
 |2025-03| Happy to share my [attemp](https://chaochunhsu.github.io/patterns/blogs/tei_qdrant_cache/) at building multi-gpu embedding server with caching! |
 |2024-12| [New post](https://chaochunhsu.github.io/patterns/blogs/modernbert_dpr/) on reproducibility of ModernBERT for retrieval tasks is out! |
 |2024-12| Officially graduated and obtained my PhD degree!|
