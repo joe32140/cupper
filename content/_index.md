@@ -17,6 +17,7 @@ Prior to that, I got a bachelor's degree in Computer Science at National Taiwan 
 ## News
 |Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Event |
 |:-----|:----------------------------:|
+|2026-02| Sharing our Kiro post on learning from live data agent trajectories to improve our system, [The hidden inefficiencies in AI coding (and how we find them)](https://kiro.dev/blog/hidden-inefficiencies-ai-coding/). |
 |2025-03| Happy to share my [attemp](https://chaochunhsu.github.io/patterns/blogs/tei_qdrant_cache/) at building multi-gpu embedding server with caching! |
 |2024-12| [New post](https://chaochunhsu.github.io/patterns/blogs/modernbert_dpr/) on reproducibility of ModernBERT for retrieval tasks is out! |
 |2024-12| Officially graduated and obtained my PhD degree!|
