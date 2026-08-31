@@ -1,0 +1,19 @@
+{{/* Slim banner — used on blog pages so the article gets the full width. */}}
+<header class="topbar" role="banner">
+  <div class="topbar-inner">
+    <a class="topbar-brand" href="{{ .Site.BaseURL }}">
+      <img src="{{ "images/didi.jpg" | absURL }}" alt="" class="topbar-avatar">
+      <span>{{ .Site.Params.Description }}</span>
+    </a>
+    <nav class="topbar-nav" role="navigation" aria-label="Main">
+      <ul>
+        {{ $p := . }}
+        {{ range .Site.Menus.main }}
+          <li>
+            <a href="{{ .URL | absURL }}"{{ if $p.IsMenuCurrent "main" . }} aria-current="page"{{ else if $p.HasMenuCurrent "main" . }} aria-current="true"{{ end }}>{{ .Name }}</a>
+          </li>
+        {{ end }}
+      </ul>
+    </nav>
+  </div>
+</header>

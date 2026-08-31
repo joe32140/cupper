@@ -1,181 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-VD0B155VLN"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-VD0B155VLN');
-    </script>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
-    <meta http-equiv="Pragma" content="no-cache" />
-    <meta http-equiv="Expires" content="0" />
-    <link rel="canonical" href="{{ .Permalink }}">
-    <link rel="apple-touch-icon" sizes="57x57" href="{{ "images/apple-touch-icon-57x57.png" | absURL }}">
-    <link rel="apple-touch-icon" sizes="60x60" href="{{ "images/apple-touch-icon-60x60.png" | absURL }}">
-    <link rel="apple-touch-icon" sizes="72x72" href="{{ "images/apple-touch-icon-72x72.png" | absURL }}">
-    <link rel="apple-touch-icon" sizes="76x76" href="{{ "images/apple-touch-icon-76x76.png" | absURL }}">
-    <link rel="apple-touch-icon" sizes="114x114" href="{{ "images/apple-touch-icon-114x114.png" | absURL }}">
-    <link rel="apple-touch-icon" sizes="120x120" href="{{ "images/apple-touch-icon-120x120.png" | absURL }}">
-    <link rel="apple-touch-icon" sizes="144x144" href="{{ "images/apple-touch-icon-144x144.png" | absURL }}">
-    <link rel="apple-touch-icon" sizes="152x152" href="{{ "images/apple-touch-icon-152x152.png" | absURL }}">
-    <link rel="apple-touch-icon" sizes="180x180" href="{{ "images/apple-touch-icon-180x180.png" | absURL }}">
-    <link rel="icon" type="image/png" sizes="192x192"  href="{{ "images/android-icon-192x192.png" | absURL }}">
-    <link rel="icon" type="image/png" sizes="32x32" href="{{ "images/favicon-32x32.png" | absURL }}">
-    <link rel="icon" type="image/png" sizes="96x96" href="{{ "images/favicon-96x96.png" | absURL }}">
-    <link rel="icon" type="image/png" sizes="16x16" href="{{ "images/favicon-16x16.png" | absURL }}">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="{{ "images/ms-icon-144x144.png" | absURL }}">
-    <meta name="theme-color" content="#ffffff">
-    <link rel="stylesheet" href="{{ "css/prism.css" | absURL }}" media="none" onload="this.media='all';">
-    <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
-    <link rel="stylesheet" type="text/css" href="{{ "css/styles.css" | absURL }}?v={{.Site.Params.Update}}">
-    <style id="inverter" media="none">
-      html { filter: invert(100%) }
-      * { background-color: inherit }
-      img:not([src*=".svg"]), .colors, iframe, .demo-container { filter: invert(100%) }
-    </style>
-    <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-      })(window,document,'script','dataLayer','GTM-WXNT3JCN');</script>
-      <!-- End Google Tag Manager -->
-    <title>
-      {{ block "title" . }}
-        {{ .Title }} | {{ .Site.Title }}
-      {{ end }}
-    </title>
-    {{ if .IsHome }}
-      <link rel="manifest" href="manifest.json">
-    {{ end }}
+    {{ partial "head.html" . }}
   </head>
   <body>
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WXNT3JCN"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
-    <!-- {{ if ne .Type "print-version" }}
-      <a href="#main">skip to content</a>
-    {{ end }} -->
+    <a href="#main" class="skip-link">skip to content</a>
     {{ partial "svg.html" . }}
-    <div class="wrapper {{ if eq .Type "print-version" }}print-version{{ end }}">
-        <header class="intro-and-nav" role="banner">
-          <div>
-            <div class="intro">
-              <a class="logo" href="/" aria-label="{{ .Site.Title }} home page">
-                <img src="{{ "images/didi.jpg" | absURL }}" alt="">
-              </a>
-              <p class="library-desc">
-                {{ .Site.Params.Description | markdownify }}
-              </p>
-              <p class="library-desc-zh">
-                {{ .Site.Params.Description_zh | markdownify }}
-              </p>
-              <p class="email">
-                {{ .Site.Params.Email | markdownify }}
-              </p>
-              <p class="icons">
-              <a href="https://www.semanticscholar.org/author/Chao-Chun-Hsu/23608432" style="border-bottom:0px;font-size:1.4rem;" class="ai ai-semantic-scholar"></a>
-              <a href="https://scholar.google.com/citations?user=3CGrZdkAAAAJ&hl=en" style="border-bottom:0px;font-size:1.4rem;" class="ai ai-google-scholar"></a>
-              <a href="https://twitter.com/chaochunh" class="fab fa-twitter"  style="border-bottom:0px;font-size:1.4rem;"></a>
-              <a href="https://github.com/joe32140" class="fab fa-github"  style="border-bottom:0px;font-size:1.4rem;"></a>
-              <a href="https://stackoverflow.com/users/10953958/joe32140" class="fab fa-stack-overflow"  style="border-bottom:0px;font-size:1.4rem;"></a>
-              </p>
-              <p class="icons" style="margin-top: -2rem;">
-                <a href="https://drive.google.com/file/d/1VLotvhJDY7KOKzUDyIP6pvbQDjsl8pgR/view?usp=sharing" class="ai ai-cv"  style="border-bottom:0px;font-size:1.4rem;"></a>
-              </p>
-              {{ if eq .Type "print-version" }}
-                <p class="toc-link">
-                  <span aria-hidden="true">&#x2193;</span>
-                  <a href="#toc">Table of contents</a>
-                  <span aria-hidden="true">&#x2193;</span>
-                </p>
-              {{ end }}
-            </div>
-            {{ block "nav" . }}
-              <nav id="patterns-nav" class="patterns" role="navigation">
-                <h2 class="vh">Main navigation</h2>
-                <button id="menu-button" aria-expanded="false">
-                  <svg viewBox="0 0 50 50" aria-hidden="true" focusable="false">
-                    <use xlink:href="#menu"></use>
-                  </svg>
-                  Menu
-                </button>
-                {{ $current := . }}
-                {{ range $.Site.Home.Sections }}
-                  <ul id="patterns-list">
-                      <li class="pattern">
-                        <a href="{{.Site.BaseURL}}"  {{ if eq $current.Title "Home" }} aria-current="page"{{ end }}>
-                          <svg class="bookmark-icon" aria-hidden="true" focusable="false" viewBox="0 0 40 50">
-                            <use xlink:href="#bookmark"></use>
-                          </svg>
-                          <span class="text">Home</span>
-                        </a>
-                      </li>
-                    {{ range .Pages.ByWeight }}
-                      <li class="pattern">
-                        <a href="{{ .RelPermalink }}" {{ if eq $current.Permalink .Permalink  }}aria-current="page"{{ end }}>
-                          <svg class="bookmark-icon" aria-hidden="true" focusable="false" viewBox="0 0 40 50">
-                            <use xlink:href="#bookmark"></use>
-                          </svg>
-                          <span class="text">{{ .Title }}</span>
-                        </a>
-                      </li>
-                    {{ end }}
-                    <!-- {{ range .Sections.ByWeight }}
-                      <li>
-                        <h3>{{ .Title }}</h3>
-                        <ul>
-                          {{ range .Pages.ByWeight }}
-                            <li class="pattern">
-                              <a href="{{ .RelPermalink }}" {{ if eq $current.Title .Title  }}aria-current="page"{{ end }}>
-                                <svg class="bookmark-icon" aria-hidden="true" viewBox="0 0 40 50" focusable="false">
-                                  <use xlink:href="#bookmark"></use>
-                                </svg>
-                                <span class="text">{{ .Title }}</span>
-                              </a>
-                            </li>
-                          {{ end }}
-                        </ul>
-                      </li>
-                    {{ end }} -->
-                  </ul>
-                {{ end }}
-              </nav>
-            {{ end }}
-          </div>
-        </header>
+    <div class="wrapper">
+      {{ partial "sidebar.html" . }}
       <div class="main-and-footer">
         <div>
-          {{ block "main" . }}
-          {{ end }}
-          <footer role="contentinfo">
-            <div>
-              <label for="themer">
-                dark theme: <input type="checkbox" id="themer" class="vh">
-                <span aria-hidden="true"></span>
-              </label>
-            </div>
-            Powered by <a href="https://github.com/ThePacielloGroup/cupper"><strong>Cupper</strong></a> | {{.Site.Params.Update | markdownify }}<br>
-          </footer>
+          {{ block "main" . }}{{ end }}
+          {{ partial "footer.html" . }}
         </div>
       </div>
     </div>
-
-	<script src="{{ "js/prism.js" | absURL }}"></script>
+    <script src="{{ "js/prism.js" | absURL }}"></script>
     <script src="{{ "js/dom-scripts.js" | absURL }}"></script>
-    <!-- {{ if .Page.IsHome }}
-      <script src="{{ "js/service-worker-registration.js" | absURL }}"></script>
-    {{ end }} -->
   </body>
 </html>

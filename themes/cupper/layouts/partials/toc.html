@@ -1,15 +1,9 @@
-{{ $headings := findRE "<h2.*?>(.|\n])+?</h2>" .Content }}
-{{ if ge (len $headings) 2 }}
-  <nav class="toc" aria-labelledby="toc-heading">
-    <h2 id="toc-heading">Table of contents</h2>
-    <ol>
-      {{ range $headings }}
-        <li>
-          <a href="#{{ . | htmlUnescape | plainify | urlize }}">
-            {{ . | htmlUnescape | plainify }}
-          </a>
-        </li>
-      {{ end }}
-    </ol>
-  </nav>
+{{/* Sticky contents rail. Uses Hugo's own TOC (h2–h3, set in config) rather than
+     a regex over the rendered HTML, so it works whatever heading levels a post uses. */}}
+{{ $items := len (findRE "<li" .TableOfContents) }}
+{{ if ge $items 2 }}
+  <aside class="toc" aria-labelledby="toc-heading">
+    <h2 id="toc-heading">Contents</h2>
+    {{ .TableOfContents }}
+  </aside>
 {{ end }}

@@ -1,0 +1,12 @@
+{{- /* Wraps markdown images in <figure>. The title attribute becomes the caption:
+       ![alt](src "caption").  Add ?wide to the src to break out of the text column. */ -}}
+{{- $src := .Destination -}}
+{{- $wide := false -}}
+{{- if strings.Contains $src "?wide" -}}
+  {{- $wide = true -}}
+  {{- $src = replace $src "?wide" "" -}}
+{{- end -}}
+<figure{{ if $wide }} class="wide"{{ end }}>
+  <img src="{{ $src | absURL }}" alt="{{ .Text }}"{{ with .Title }} title="{{ . }}"{{ end }} loading="lazy">
+  {{- with .Title }}<figcaption>{{ . | markdownify }}</figcaption>{{ end -}}
+</figure>

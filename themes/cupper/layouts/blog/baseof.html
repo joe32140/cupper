@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {{ partial "head.html" . }}
+  </head>
+  <body class="reading">
+    <a href="#main" class="skip-link">skip to content</a>
+    {{ partial "svg.html" . }}
+    <div class="wrapper wrapper-article">
+      {{ partial "topbar.html" . }}
+      {{ block "main" . }}{{ end }}
+      {{ partial "footer.html" . }}
+    </div>
+    <script src="{{ "js/prism.js" | absURL }}"></script>
+    <script src="{{ "js/dom-scripts.js" | absURL }}"></script>
+  </body>
+</html>

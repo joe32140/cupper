@@ -4,14 +4,38 @@ baseURL = "https://chaochunhsu.github.io/"
 canonifyURLs = true
 theme = "cupper"
 publishDir = "docs"
-update="Lastest update: 12/24/2024"
 
 [params]
-  update="Lastest update: 12/24/2024"
+  update = "Last updated: 08/25/2026"
   description = "Chao-Chun (Joe) Hsu"
   description_zh = "徐朝駿"
   email = "chaochunh [at] uchicago [dot] edu"
-  codePenUser = "Heydon"
+  author = "Chao-Chun Hsu"
+
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 3
+    ordered = false
+  [markup.highlight]
+    # Prism.js handles highlighting client-side; emit plain code elements for it.
+    codeFences = false
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Blog"
+    url = "/blog/"
+    weight = 2
+  [[menu.main]]
+    name = "Publications"
+    url = "/publications/"
+    weight = 3
 
 [sitemap]
   changefreq = "monthly"

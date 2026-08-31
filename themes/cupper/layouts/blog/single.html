@@ -1,0 +1,53 @@
+{{ define "main" }}
+  <main id="main" class="article">
+
+    <div class="masthead">
+      <div class="masthead-inner">
+        <h1>{{ .Title }}</h1>
+        {{ with .Params.subtitle }}<p class="subtitle">{{ . | markdownify }}</p>{{ end }}
+        <dl class="byline">
+          <div>
+            <dt>Author</dt>
+            <dd>{{ .Site.Params.Author }}</dd>
+          </div>
+          {{ if not .Date.IsZero }}
+          <div>
+            <dt>Published</dt>
+            <dd><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time></dd>
+          </div>
+          {{ end }}
+          <div>
+            <dt>Reading time</dt>
+            <dd>{{ .ReadingTime }} min</dd>
+          </div>
+        </dl>
+      </div>
+    </div>
+
+    <div class="article-body">
+      {{ if ne .Params.TOC false }}{{ partial "toc.html" . }}{{ end }}
+      <div class="prose">
+        {{ .Content }}
+
+        {{ with .Params.tags }}
+          <div class="tags">
+            <strong aria-hidden="true">Tags: </strong>
+            <ul class="tag-list" aria-label="tags">
+              {{ range . }}
+                <li>
+                  <svg class="tag-icon" aria-hidden="true" viewBox="0 0 177.16535 177.16535" focusable="false"><use xlink:href="#tag"></use></svg>
+                  <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+                </li>
+              {{ end }}
+            </ul>
+          </div>
+        {{ end }}
+
+        <nav class="post-nav" aria-label="More posts">
+          {{ with .PrevInSection }}<a class="prev" href="{{ .RelPermalink }}"><span>Newer</span>{{ .Title }}</a>{{ end }}
+          {{ with .NextInSection }}<a class="next" href="{{ .RelPermalink }}"><span>Older</span>{{ .Title }}</a>{{ end }}
+        </nav>
+      </div>
+    </div>
+  </main>
+{{ end }}

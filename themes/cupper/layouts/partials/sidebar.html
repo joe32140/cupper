@@ -1,0 +1,25 @@
+{{/* Full identity rail — used on Home and Publications. */}}
+<header class="intro-and-nav" role="banner">
+  <div>
+    <div class="intro">
+      {{ partial "identity.html" . }}
+    </div>
+    <nav id="patterns-nav" class="patterns" role="navigation" aria-label="Main">
+      <button id="menu-button" aria-expanded="false" aria-controls="patterns-list">
+        <svg viewBox="0 0 50 50" aria-hidden="true" focusable="false"><use xlink:href="#menu"></use></svg>
+        Menu
+      </button>
+      <ul id="patterns-list">
+        {{ $p := . }}
+        {{ range .Site.Menus.main }}
+          <li class="pattern">
+            <a href="{{ .URL | absURL }}"{{ if $p.IsMenuCurrent "main" . }} aria-current="page"{{ else if $p.HasMenuCurrent "main" . }} aria-current="true"{{ end }}>
+              <svg class="bookmark-icon" aria-hidden="true" focusable="false" viewBox="0 0 40 50"><use xlink:href="#bookmark"></use></svg>
+              <span class="text">{{ .Name }}</span>
+            </a>
+          </li>
+        {{ end }}
+      </ul>
+    </nav>
+  </div>
+</header>

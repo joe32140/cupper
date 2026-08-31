@@ -1,17 +1,17 @@
-{{ define "title" }}
-  Patterns tagged {{ .Title }} | {{ .Site.Title }}
-{{ end }}
+{{ define "title" }}Posts tagged {{ .Title }} | {{ .Site.Title }}{{ end }}
 {{ define "main" }}
   <main id="main">
     <h1>
-      <svg class="tag-icon" aria-hidden="true" viewBox="0 0 177.16535 177.16535" focusable="false">
-        <use xlink:href="#tag"></use>
-      </svg>
+      <svg class="tag-icon" aria-hidden="true" viewBox="0 0 177.16535 177.16535" focusable="false"><use xlink:href="#tag"></use></svg>
       Tagged &#x201c;{{ .Title }}&#x201d;
     </h1>
-    <ul class="patterns-list">
-      {{ range .Data.Pages }}
-          {{ .Render "li"}}
+    <ul class="post-list">
+      {{ range .Pages.ByDate.Reverse }}
+        <li>
+          {{ if not .Date.IsZero }}<time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2006" }}</time>{{ end }}
+          <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+          {{ with .Description }}<p class="post-summary">{{ . | markdownify }}</p>{{ end }}
+        </li>
       {{ end }}
     </ul>
   </main>

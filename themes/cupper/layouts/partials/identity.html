@@ -1,0 +1,8 @@
+{{/* Avatar, names, contact and icon rail. Shared by the sidebar and the blog index header. */}}
+<a class="logo" href="{{ .Site.BaseURL }}" aria-label="{{ .Site.Title }} home page">
+  <img src="{{ "images/didi.jpg" | absURL }}" alt="">
+</a>
+<p class="library-desc">{{ .Site.Params.Description | markdownify }}</p>
+<p class="library-desc-zh">{{ .Site.Params.Description_zh | markdownify }}</p>
+<p class="email">{{ .Site.Params.Email | markdownify }}</p>
+{{ partial "social.html" . }}

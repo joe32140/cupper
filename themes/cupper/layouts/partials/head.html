@@ -1,0 +1,46 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="canonical" href="{{ .Permalink }}">
+
+<title>{{ block "title" . }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+<meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.Description }}{{ end }}">
+
+{{/* Open Graph — so shared post links render with a title and summary */}}
+<meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+<meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}">
+<meta property="og:url" content="{{ .Permalink }}">
+{{ with .Description }}<meta property="og:description" content="{{ . }}">{{ end }}
+<meta name="twitter:card" content="summary">
+
+<link rel="apple-touch-icon" sizes="180x180" href="{{ "images/apple-touch-icon-180x180.png" | absURL }}">
+<link rel="icon" type="image/png" sizes="32x32" href="{{ "images/favicon-32x32.png" | absURL }}">
+<link rel="icon" type="image/png" sizes="16x16" href="{{ "images/favicon-16x16.png" | absURL }}">
+<meta name="theme-color" content="#fefefe">
+
+{{/* Icon fonts. The old cdn.rawgit.com host was sunset in 2019; these are
+     version-pinned on jsDelivr instead. */}}
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1.9.4/css/academicons.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.7.2/css/all.min.css">
+<link rel="stylesheet" href="{{ "css/prism.css" | absURL }}" media="none" onload="this.media='all';">
+{{/* Content-hashed so a CSS change always busts the cache. The old ?v=
+     key was a hand-maintained string, which served stale CSS whenever it
+     was not bumped by hand. Font URLs inside the file are relative to
+     /css/, which still resolves for the fingerprinted name. */}}
+{{ $styles := resources.Get "css/styles.css" | fingerprint "sha256" }}
+<link rel="stylesheet" href="{{ $styles.RelPermalink }}">
+
+<style id="inverter" media="none">
+  html { filter: invert(100%) }
+  * { background-color: inherit }
+  img:not([src*=".svg"]), iframe, .demo-container { filter: invert(100%) }
+</style>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VD0B155VLN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-VD0B155VLN');
+</script>

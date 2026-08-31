@@ -1,0 +1,31 @@
+{{ define "main" }}
+  <main id="main" class="article">
+    <div class="masthead">
+      <div class="masthead-inner">
+        <h1>{{ .Title }}</h1>
+        {{ with .Content }}<div class="subtitle">{{ . }}</div>{{ end }}
+      </div>
+    </div>
+
+    <div class="article-body">
+      <div class="prose">
+        <ul class="post-list">
+          {{ range .Pages.ByDate.Reverse }}
+            <li>
+              {{ if not .Date.IsZero }}
+                <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2006" }}</time>
+              {{ end }}
+              <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+              {{ with .Description }}<p class="post-summary">{{ . | markdownify }}</p>{{ end }}
+              {{ with .Params.tags }}
+                <ul class="post-tags" aria-label="tags">
+                  {{ range first 5 . }}<li><a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a></li>{{ end }}
+                </ul>
+              {{ end }}
+            </li>
+          {{ end }}
+        </ul>
+      </div>
+    </div>
+  </main>
+{{ end }}
