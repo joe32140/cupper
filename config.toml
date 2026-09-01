@@ -10,7 +10,7 @@ publishDir = "docs"
   description = "Chao-Chun (Joe) Hsu"
   description_zh = "徐朝駿"
   email = "chaochunh [at] uchicago [dot] edu"
-  author = "Chao-Chun Hsu"
+  author = "Chao-Chun (Joe) Hsu"
 
 [markup]
   [markup.goldmark.renderer]
