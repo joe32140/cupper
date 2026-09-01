@@ -1,7 +1,7 @@
 +++
 title = "Reproducibility Report of ModernBERT Models for Retrieval Tasks Using DPR"
 subtitle = "The ModernBERT paper didn't ship checkpoints for the retrieval experiments, so I fine-tuned them myself. The reproduced numbers came out above the published ones on nearly every dataset."
-description = "Fine-tuning ModernBERT-base and -large on MS MARCO with DPR. The reproduced NDCG@10 beats the paper's reported numbers on nearly every dataset — batch size looks like the reason."
+description = "Fine-tuning ModernBERT-base and -large on MS MARCO with DPR. The reproduced NDCG@10 beats the paper's reported numbers on nearly every dataset, likely due to batch size."
 date = 2024-12-24
 toc = true
 aliases = ["/patterns/blogs/modernbert_dpr/"]
@@ -30,7 +30,7 @@ In the end, I fine-tuned ModernBERT-base and ModernBERT-large on 1.25M training 
 
 ## Reproduced Results
 
-As shown in the table below, my fine-tuned models outperform the original models reported in the paper on NDCG@10 for almost every dataset — the exceptions are TREC-Covid and Climate-FEVER for the base model. They also improve performance on the ArguAna dataset by more than 10 points for the base model and 9 points for the large model. I hypothesize that these gains come from the much larger batch size of 512 in the official training script, compared to the reported batch size of 16 in the paper, but this still needs verification by the authors.
+As shown in the table below, my fine-tuned models outperform the original models reported in the paper on NDCG@10 for almost every dataset, with TREC-Covid and Climate-FEVER for the base model being the exceptions. They also improve performance on the ArguAna dataset by more than 10 points for the base model and 9 points for the large model. I hypothesize that these gains come from the much larger batch size of 512 in the official training script, compared to the reported batch size of 16 in the paper, but this still needs verification by the authors.
 
 For the out-of-domain (OOD) evaluation on the MLDR dataset, my models improve clearly over the original numbers.
 
