@@ -16,6 +16,7 @@ I did my PhD in Computer Science at the University of Chicago in the [Chicago Hu
 ## News
 | Date | Event |
 |:-----|:-----|
+|2026-09| Our ModernBERT-base-msmarco checkpoint became the [most downloaded ModernBERT-base embedding model](/blog/modernbert-dpr/#update-2026) on Hugging Face (293k+ downloads)! |
 |2026-07| Two papers accepted: [CodeScout](https://aclanthology.org/2026.findings-acl.2032/) at *Findings of ACL 2026* and [CodeStruct](https://arxiv.org/abs/2604.05407) at *ACL 2026*! |
 |2026-02| Sharing our [Kiro post](https://kiro.dev/blog/hidden-inefficiencies-ai-coding/) on learning from live agent trajectories to improve coding agents! |
 |2025-03| Happy to share my [attempt](/blog/tei-qdrant-cache/) at building a multi-GPU embedding server with caching! |
