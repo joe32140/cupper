@@ -60,6 +60,6 @@ Please try the fine-tuned retrieval models by yourself at my [Hugging Face colle
 
 ## Update (2026)
 
-A fun milestone: [joe32140/ModernBERT-base-msmarco](https://huggingface.co/joe32140/ModernBERT-base-msmarco) became the most downloaded ModernBERT-base embedding model on Hugging Face, with 293k+ downloads. Not bad for a weekend reproducibility exercise on a single RTX 4090! You can browse all the ModernBERT-base fine-tunes [sorted by downloads here](https://huggingface.co/models?other=base_model:finetune:answerdotai%2FModernBERT-base&sort=downloads).
+A fun milestone: [joe32140/ModernBERT-base-msmarco](https://huggingface.co/joe32140/ModernBERT-base-msmarco) became the most downloaded ModernBERT-base embedding model on Hugging Face as of September 2026, with 293k+ downloads in the trailing 30 days. Not bad for a weekend reproducibility exercise on a single RTX 4090! You can browse all the ModernBERT-base fine-tunes [sorted by downloads here](https://huggingface.co/models?other=base_model:finetune:answerdotai%2FModernBERT-base&sort=downloads).
 
 ![ModernBERT-base fine-tunes on Hugging Face sorted by downloads, with joe32140/ModernBERT-base-msmarco at #1 among embedding models (293k+ downloads)](/images/hf_modernbert_downloads.png "ModernBERT-base models on Hugging Face, sorted by downloads")
