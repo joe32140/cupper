@@ -9,7 +9,7 @@ Hi, I am Joe from [Taiwan](https://www.lonelyplanet.com/taiwan), currently explo
 
 Most recently I was an Applied Scientist at Amazon, where I worked on improving [Kiro](https://kiro.dev/) coding agents. I used live-session trajectory data to find signals for improving agents through harness optimization and RL training ([blog post on the harness side](https://kiro.dev/blog/hidden-inefficiencies-ai-coding/)).
 
-I'm broadly interested in retrieval systems and making them faster. On the side I contribute to [next-plaid](https://github.com/lightonai/next-plaid) and [fast-plaid](https://github.com/lightonai/fast-plaid) (asymmetric binary quantization, fused CUDA kernels, faster shortlist pipelines) and built [nano-plaid](https://github.com/joe32140/nano-plaid), a from-scratch ColBERT+PLAID implementation in one NumPy file with a Rust SIMD kernel ladder.
+I'm broadly interested in retrieval systems and making them faster. On the side I contribute to [next-plaid](https://github.com/lightonai/next-plaid/commits/main/?author=joe32140) and [fast-plaid](https://github.com/lightonai/fast-plaid/commits/main/?author=joe32140) (asymmetric binary quantization, fused CUDA kernels, faster shortlist pipelines) and built [nano-plaid](https://github.com/joe32140/nano-plaid), a from-scratch ColBERT+PLAID implementation in one NumPy file with a Rust SIMD kernel ladder.
 
 I did my PhD in Computer Science at the University of Chicago in the [Chicago Human+AI (CHAI) lab](https://chicagohai.github.io/), advised by [Prof. Chenhao Tan](https://chenhaot.com), where I studied how NLP on large corpora can support human decision-making.
 
