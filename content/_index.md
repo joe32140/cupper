@@ -5,7 +5,7 @@ title = "Home"
   priority = 1.0
 +++
 
-Hi, I am Joe from [Taiwan](https://www.lonelyplanet.com/taiwan), currently exploring new things in Tokyo.
+Hi, I am Joe from [Taiwan](https://www.lonelyplanet.com/taiwan), currently exploring new things in Tokyo. Happy to chat about new opportunities and collaborations.
 
 Most recently I was an Applied Scientist at Amazon, where I worked on improving [Kiro](https://kiro.dev/) coding agents. I used live-session trajectory data to find signals for improving agents through harness optimization and RL training ([blog post on the harness side](https://kiro.dev/blog/hidden-inefficiencies-ai-coding/)).
 
