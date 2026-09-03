@@ -2,7 +2,7 @@
 title = "The Slow Half of PLAID: Making Exact Rescoring Cheap with One Int8 Operation"
 subtitle = "Late-interaction search has always had a slow half: exact rescoring. I rebuilt it in two pull requests to next-plaid: one asymmetric int8 operation ([#169](https://github.com/lightonai/next-plaid/pull/169)), then the stage-1 rework its collapse exposed ([#170](https://github.com/lightonai/next-plaid/pull/170))."
 description = "Exact rescoring has always been the slow half of late-interaction search. One asymmetric int8 operation and a stage-1 rework made next-plaid 1.7.0 4.3 to 5.4x faster on CPU at matched quality, on existing indexes."
-date = 2026-09-01
+date = 2026-09-03
 toc = true
 math = true
 tags = ["retrieval", "embeddings", "performance", "plaid", "colbert"]
