@@ -301,7 +301,6 @@ pre[class*="language-"] {
 }
 code[class*="language-"], pre[class*="language-"] {
     text-shadow: none;
-    filter: grayscale(100%);
 }
 
 .cmd { padding: 0.75rem 1rem; background: var(--ink); }
